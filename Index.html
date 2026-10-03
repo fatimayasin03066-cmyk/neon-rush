@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Neon Rush</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="game">
+
+    <div class="top-bar">
+        <h1>NEON RUSH</h1>
+
+        <div class="stats">
+            <span>⭐ <b id="score">0</b></span>
+            <span>🪙 <b id="coins">0</b></span>
+            <span>❤️ <b id="lives">3</b></span>
+            <span>⚡ <b id="speed">1</b></span>
+        </div>
+    </div>
+
+    <div id="road">
+
+        <div class="road-line line1"></div>
+        <div class="road-line line2"></div>
+        <div class="road-line line3"></div>
+
+        <div id="player">🏎️</div>
+
+        <div class="enemy enemy1">🚕</div>
+        <div class="enemy enemy2">🚓</div>
+        <div class="enemy enemy3">🚙</div>
+
+        <div class="coin coin1">🪙</div>
+        <div class="coin coin2">🪙</div>
+
+        <div id="gameOver">
+            <h2>GAME OVER</h2>
+
+            <p>Score: <span id="finalScore">0</span></p>
+            <p>Coins: <span id="finalCoins">0</span></p>
+
+            <button id="restartBtn">↻ Restart</button>
+        </div>
+
+    </div>
+
+    <div class="controls">
+        <button id="leftBtn">←</button>
+        <button id="rightBtn">→</button>
+    </div>
+
+    <p class="hint">Use the buttons or ← → keys to drive</p>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
